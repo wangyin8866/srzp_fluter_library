@@ -1,6 +1,8 @@
+import android.renderscript.ScriptGroup
+
 // Generated file. Do not edit.
 include ':app'
 
 rootProject.name = 'android_generated'
-setBinding(new Binding([gradle: this]))
+setBinding(new ScriptGroup.Binding([gradle: this]))
 evaluate(new File(settingsDir, 'include_flutter.groovy'))
